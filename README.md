@@ -12,10 +12,11 @@
   <a href="https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant/releases"><strong>Download Alpha</strong></a>
   · <a href="#start-here-choose-only-what-you-need"><strong>Setup Guide</strong></a>
   · <a href="README.zh-CN.md#先看结论安装-heimdall-不需要开发者模式"><strong>简体中文设置指南</strong></a>
+  · <a href="README.zh-TW.md#先看結論安裝-heimdall-不需要開發者模式"><strong>繁體中文設定指南</strong></a>
   · <a href="https://github.com/mastercook777/Heimdall-AYN-Thor-Assistant/issues">Report an issue</a>
 </p>
 
-English | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md) | [台灣繁體中文](README.zh-TW.md)
 
 Heimdall keeps the game on Thor's upper screen while the lower screen becomes a persistent control and reference console: Profiles, macros, touch controls, translation, hardware status, maps, guides, local-media Canvases, Portals, recording, and Quick Actions stay within thumb reach.
 
