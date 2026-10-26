@@ -132,6 +132,7 @@ final class UpperScreenMagnifierView extends FrameLayout
         statusView.setText(R.string.magnifier_enable_hint);
         statusView.setTextColor(HeimdallUi.componentColors(context).mediaHintText);
         statusView.setTextSize(12);
+        statusView.setLineSpacing(dp(2), 1.15f);
         statusView.setGravity(Gravity.CENTER);
         statusView.setPadding(dp(8), dp(8), dp(8), dp(8));
         viewport.addView(statusView, new FrameLayout.LayoutParams(-1, -1));

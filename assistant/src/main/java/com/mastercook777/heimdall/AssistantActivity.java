@@ -5179,8 +5179,8 @@ public class AssistantActivity extends Activity {
 
         LinearLayout rail = new LinearLayout(this);
         rail.setOrientation(LinearLayout.VERTICAL);
-        rail.setPadding(0, 0, dp(8), 0);
-        shell.addView(rail, new LinearLayout.LayoutParams(dp(214), -1));
+        rail.setPadding(0, 0, dp(6), 0);
+        shell.addView(rail, new LinearLayout.LayoutParams(dp(140), -1));
 
         LinearLayout nav = new LinearLayout(this);
         nav.setOrientation(LinearLayout.VERTICAL);

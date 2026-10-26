@@ -811,7 +811,7 @@
     <string name="macro_steps_empty">No steps</string>
     <string name="gamepad_delete_short">Delete</string>
     <string name="magnifier_live_content_description">Live upper-screen Portal in View Only mode</string>
-    <string name="magnifier_enable_hint">Tap to start Portal. Select its region in Portal Settings.</string>
+    <string name="magnifier_enable_hint">Tap to start Portal\nSelect region in Portal Settings</string>
     <string name="magnifier_connecting">Connecting to the upper screen…</string>
     <string name="magnifier_paused_content_description">Portal paused in View Only mode. Tap the image to resume, use the top-right stop control, or triple-tap to stop.</string>
     <string name="magnifier_active_content_description">Live Portal in View Only mode. Double-tap to pause or triple-tap to stop.</string>
