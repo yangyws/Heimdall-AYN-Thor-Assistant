@@ -154,10 +154,12 @@
     <string name="macro_picker_title">選擇要編輯的巨集</string>
     <string name="macro_picker_subtitle">當前 Profile：%1$s  ·  %2$s</string>
     <string name="macro_picker_empty">當前 Profile 暫無可編輯的巨集。</string>
-    <string name="macro_count">
-        </string>
-    <string name="step_count">
-        </string>
+    <plurals name="macro_count">
+        <item quantity="other">%1$d 個巨集</item>
+    </plurals>
+    <plurals name="step_count">
+        <item quantity="other">%1$d 個步驟</item>
+    </plurals>
     <string name="macro_role_high">高強調</string>
     <string name="macro_role_medium">中強調</string>
     <string name="macro_role_low">低強調</string>
@@ -413,8 +415,9 @@
     <string name="community_profiles_entry_summary">瀏覽玩家與維護者製作的實用佈局。</string>
     <string name="community_profiles_count_loading">正在獲取精選內容…</string>
     <string name="community_profiles_count_unavailable">開啟後檢視當前精選目錄</string>
-    <string name="community_profiles_featured_count">
-        </string>
+    <plurals name="community_profiles_featured_count">
+        <item quantity="other">當前有 %d 個精選 Profile</item>
+    </plurals>
     <string name="community_profiles_refresh">重新整理</string>
     <string name="community_profiles_loading">正在載入社群 Profile…</string>
     <string name="community_profiles_empty">當前目錄中沒有 Profile。</string>
@@ -436,10 +439,12 @@
     <string name="community_profile_import_as_new">匯入為新 Profile</string>
     <string name="community_profile_preview">Profile 預覽圖</string>
     <string name="community_profile_preview_unavailable">Profile 預覽圖不可用</string>
-    <string name="community_profile_count">
-        </string>
-    <string name="community_profile_asset_summary">
-        </string>
+    <plurals name="community_profile_count">
+        <item quantity="other">當前有 %d 個社群 Profile。</item>
+    </plurals>
+    <plurals name="community_profile_asset_summary">
+        <item quantity="other">包含 %1$d 個資源，共 %2$s。</item>
+    </plurals>
     <string name="profile_list">Profile 列表</string>
     <string name="profile_keep_one">至少需要保留 1 個 Profile。</string>
     <string name="profile_delete_title">刪除 Profile</string>
@@ -447,10 +452,12 @@
     <string name="profile_backup_restore">備份與恢復</string>
     <string name="profile_backup_summary">已保留 %1$s。刪除或覆蓋 Profile 前，Heimdall 會先自動備份。</string>
     <string name="profile_no_restore_points">尚無恢復點。首次刪除 Profile 或覆蓋匯入前會自動建立。</string>
-    <string name="restore_point_count">
-        </string>
-    <string name="profile_count">
-        </string>
+    <plurals name="restore_point_count">
+        <item quantity="other">%1$d 個恢復點</item>
+    </plurals>
+    <plurals name="profile_count">
+        <item quantity="other">%1$d 個 Profile</item>
+    </plurals>
     <string name="profile_snapshot_raw_only">資料無法直接恢復，已保留原文</string>
     <string name="profile_snapshot_before_delete">刪除前</string>
     <string name="profile_snapshot_before_replace">替換全部前</string>
@@ -679,8 +686,9 @@
     <string name="macro_icon_delete_title">刪除自訂圖示？</string>
     <string name="macro_icon_delete_message">要從自訂圖示中刪除“%1$s”嗎？對應的應用內圖片檔案將被刪除，且無法恢復。</string>
     <string name="macro_icon_delete_accessibility">刪除自訂圖示“%1$s”</string>
-    <string name="macro_icon_in_use">
-        </string>
+    <plurals name="macro_icon_in_use">
+        <item quantity="other">這個圖示仍被 %1$d 個控制元件使用。請先為相關控制元件選擇其他圖示，再刪除它。</item>
+    </plurals>
     <string name="capture_upper_display">將在上螢幕採集座標：display %1$d。</string>
     <string name="capture_current_display_fallback">未找到第二屏，將在當前屏採集。</string>
     <string name="gamepad_record_title">錄製手把操作</string>
@@ -711,8 +719,9 @@
     <string name="gamepad_compose_hold_suffix">%1$s  ·  長按 %2$d 毫秒</string>
     <string name="gamepad_compose_sequence_empty">序列還是空的。先在上方組合一個動作，再點“加入序列”。</string>
     <string name="gamepad_compose_action_added">已加入第 %1$d 個動作。可在上方繼續組合，或在下方檢查序列。</string>
-    <string name="gamepad_compose_existing_loaded">
-        </string>
+    <plurals name="gamepad_compose_existing_loaded">
+        <item quantity="other">已載入現有序列，共 %1$d 個動作。調整、映象和測試後再替換。</item>
+    </plurals>
     <string name="gamepad_compose_remove_action">刪除第 %1$d 個動作</string>
     <string name="gamepad_compose_timing_step">3  調整時序</string>
     <string name="gamepad_compose_frame_interval">動作間隔（毫秒）</string>
@@ -720,8 +729,9 @@
     <string name="gamepad_compose_timing_hint">動作時序會保持輸入連續；需要全部鬆開後的停頓，請回到巨集頁面新增“等待”步驟。</string>
     <string name="gamepad_compose_mode_warning">12 個標準按鍵都會顯示；灰色項在當前模式不可編排。搖桿和僅模擬輸出的扳機請繼續使用實體錄製；切換 Thor 手把模式後需重新編排。</string>
     <string name="gamepad_compose_action_empty">請至少選擇一個方向或數字按鍵。</string>
-    <string name="gamepad_compose_action_limit">
-        </string>
+    <plurals name="gamepad_compose_action_limit">
+        <item quantity="other">單個編排步驟最多支援 %1$d 個動作。</item>
+    </plurals>
     <string name="gamepad_compose_no_controller">請先將 Thor 切換到原生或 Xbox 相容手把模式，再開始編排。</string>
     <string name="gamepad_compose_test_ready">新增前請先在遊戲中測試這段編排。</string>
     <string name="gamepad_record_prepare">準備錄製</string>
@@ -835,8 +845,9 @@
     <string name="gamepad_summary_empty">未錄到手把操作</string>
     <string name="gamepad_summary_subtitle">%1$s  ·  %2$s  ·  %3$s</string>
     <string name="gamepad_summary_subtitle_many">%1$s  ·  %2$s  ·  %3$s  ·  操作較多</string>
-    <string name="gamepad_summary_event_count">
-        </string>
+    <plurals name="gamepad_summary_event_count">
+        <item quantity="other">%d 個事件</item>
+    </plurals>
     <string name="gamepad_summary_sequence">順序：%1$s</string>
     <string name="gamepad_summary_kind_sequence">連續操作</string>
     <string name="gamepad_summary_kind_chord">組合鍵</string>
@@ -1040,8 +1051,9 @@
     <string name="keyboard_pad_edit_control_description">小鍵盤模組操作區，長按編輯。</string>
     <string name="keyboard_pad_save_layout_first">請先儲存 Grid 佈局，再編輯此小鍵盤。</string>
     <string name="keyboard_pad_editor_title">小鍵盤編輯器</string>
-    <string name="keyboard_pad_editor_subtitle">
-        </string>
+    <plurals name="keyboard_pad_editor_subtitle">
+        <item quantity="other">%1$d 顆按鍵 · 點選按鍵進行設定</item>
+    </plurals>
     <string name="keyboard_pad_editor_help">點按 Key 進行設定；數量和佈局只會重排當前草稿。</string>
     <string name="keyboard_pad_key_count">Key 數量</string>
     <string name="keyboard_pad_layout">佈局</string>
